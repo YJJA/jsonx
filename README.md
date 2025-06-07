@@ -4,22 +4,22 @@ JSONX is a modern TypeScript monorepo focused on advanced serialization, deseria
 
 ## Packages
 
-- [`@jsonx/seria`](packages/seria/README.md): High-performance serialization and deserialization library supporting various complex data types. Features a simple API, zero dependencies, and is ideal for scenarios requiring strong type safety and performance.
-- [`@jsonx/typify`](packages/typify/README.md): Type-aware serialization tool that preserves original type information, facilitating type inference and type-safe processing.
-- [`@jsonx/utils`](packages/utils/package.json): Provides common utility functions and infrastructure for JSONX-related packages.
+- [`@jsox/seria`](packages/seria/README.md): High-performance serialization and deserialization library supporting various complex data types. Features a simple API, zero dependencies, and is ideal for scenarios requiring strong type safety and performance.
+- [`@jsox/typify`](packages/typify/README.md): Type-aware serialization tool that preserves original type information, facilitating type inference and type-safe processing.
+- [`@jsox/utils`](packages/utils/package.json): Provides common utility functions and infrastructure for JSONX-related packages.
 
 ## Quick Start
 
 Install any subpackage, for example:
 
 ```bash
-npm install @jsonx/seria
+npm install @jsox/seria
 ```
 
 Usage example:
 
 ```typescript
-import Seria from "@jsonx/seria";
+import Seria from "@jsox/seria";
 
 const obj = {
   name: "Alice",
@@ -46,8 +46,8 @@ console.log(restored);
 
 ## Related Links
 
-- [`@jsonx/seria`](packages/seria/README.md)
-- [`@jsonx/typify`](packages/typify/README.md)
+- [`@jsox/seria`](packages/seria/README.md)
+- [`@jsox/typify`](packages/typify/README.md)
 
 ## License
 

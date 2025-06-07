@@ -1,4 +1,4 @@
-import { JSONX } from "@jsonx/utils";
+import { JSONX } from "@jsox/utils";
 import { parser as parse } from "./parser.ts";
 import { tokenizer } from "./tokenizer.ts";
 import { transformer } from "./transformer.ts";

@@ -1,4 +1,4 @@
-import { assert } from "@jsonx/utils";
+import { assert } from "@jsox/utils";
 import {
   isArray,
   isBigIntArray,

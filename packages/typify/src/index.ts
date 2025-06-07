@@ -1,4 +1,4 @@
-import { JSONX, type ClassType } from "@jsonx/utils";
+import { JSONX, type ClassType } from "@jsox/utils";
 import parse from "./parse/index.ts";
 import stringify from "./stringify.ts";
 

@@ -1,6 +1,6 @@
-# @jsonx/typify
+# @jsox/typify
 
-@jsonx/typify is a TypeScript library that can serialize any JS/JSON data structure (including Symbol, Set, Map, etc.) into a string and supports deserializing it back to the original object, helping you easily achieve type-safe data serialization and deserialization.
+@jsox/typify is a TypeScript library that can serialize any JS/JSON data structure (including Symbol, Set, Map, etc.) into a string and supports deserializing it back to the original object, helping you easily achieve type-safe data serialization and deserialization.
 
 ## Features
 
@@ -12,13 +12,13 @@
 ## Installation
 
 ```bash
-npm install @jsonx/typify
+npm install @jsox/typify
 ```
 
 ## Quick Start
 
 ```typescript
-import Typify from "@jsonx/typify";
+import Typify from "@jsox/typify";
 
 const obj = {
   name: "John",

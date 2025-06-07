@@ -1,5 +1,5 @@
 {
-  "name": "@jsonx/typify",
+  "name": "@jsox/typify",
   "version": "0.1.3",
   "description": "A powerful library for serializing and deserializing JavaScript data types, including Symbol, Set, Map, Error, and more",
   "author": "Liu Hong <hongdoit@icloud.com> (https://github.com/YJJA)",
@@ -28,7 +28,7 @@
     "test": "node --test ./src/__tests__/*.test.ts"
   },
   "devDependencies": {
-    "@jsonx/utils": "workspace:*",
+    "@jsox/utils": "workspace:*",
     "@tscb/builder-babel": "catalog:",
     "@tscb/tsconfig": "catalog:",
     "@types/node": "catalog:",

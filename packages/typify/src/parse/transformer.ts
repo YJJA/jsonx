@@ -1,4 +1,4 @@
-import { JSONX, assert } from "@jsonx/utils";
+import { JSONX, assert } from "@jsox/utils";
 import {
   hasFromJSON,
   isNumber,

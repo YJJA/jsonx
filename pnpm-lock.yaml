@@ -46,7 +46,7 @@ importers:
 
   packages/seria:
     devDependencies:
-      "@jsonx/utils":
+      "@jsox/utils":
         specifier: workspace:*
         version: link:../utils
       "@tscb/builder-babel":
@@ -70,7 +70,7 @@ importers:
 
   packages/typify:
     devDependencies:
-      "@jsonx/utils":
+      "@jsox/utils":
         specifier: workspace:*
         version: link:../utils
       "@tscb/builder-babel":

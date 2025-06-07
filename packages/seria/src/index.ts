@@ -1,4 +1,4 @@
-import { JSONX, type ClassType } from "@jsonx/utils";
+import { JSONX, type ClassType } from "@jsox/utils";
 import { deserialize } from "./deserialize.ts";
 import { serialize } from "./serialize.ts";
 import type { SeriaValue } from "./types.ts";

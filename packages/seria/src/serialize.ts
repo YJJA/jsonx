@@ -1,4 +1,4 @@
-import type { ClassType, JSONX } from "@jsonx/utils";
+import type { ClassType, JSONX } from "@jsox/utils";
 import {
   enumerableKeys,
   getDataType,

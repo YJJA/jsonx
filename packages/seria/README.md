@@ -1,6 +1,6 @@
-# @jsonx/seria
+# @jsox/seria
 
-@jsonx/seria is a TypeScript library that can serialize any JS/JSON data structure (including Symbol, Set, Map, etc.) into a string and supports deserializing it back to the original object, helping you easily achieve type-safe data serialization and deserialization.
+@jsox/seria is a TypeScript library that can serialize any JS/JSON data structure (including Symbol, Set, Map, etc.) into a string and supports deserializing it back to the original object, helping you easily achieve type-safe data serialization and deserialization.
 
 ## Features
 
@@ -12,13 +12,13 @@
 ## Installation
 
 ```bash
-npm install @jsonx/seria
+npm install @jsox/seria
 ```
 
 ## Quick Start
 
 ```typescript
-import Seria from "@jsonx/seria";
+import Seria from "@jsox/seria";
 
 const obj = {
   name: "John",

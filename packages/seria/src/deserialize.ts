@@ -1,4 +1,4 @@
-import type { JSONX } from "@jsonx/utils";
+import type { JSONX } from "@jsox/utils";
 import { hasFromJSON } from "payload-is";
 import type {
   SeriaSymbolValue,
