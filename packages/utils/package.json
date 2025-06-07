@@ -1,0 +1,51 @@
+{
+  "name": "@jsonx/utils",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Utilities for JSONX",
+  "license": "MIT",
+  "author": "Liu Hong <hongdoit@icloud.com> (https://github.com/YJJA)",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./lib/types/index.d.ts",
+      "import": "./lib/esm/index.js",
+      "require": "./lib/commonjs/index.cjs",
+      "default": "./lib/commonjs/index.cjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/commonjs/index.cjs",
+  "module": "./lib/esm/index.js",
+  "source": "./src/index.ts",
+  "types": "./lib/types/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "builder-babel",
+    "check-types": "tsc --noEmit",
+    "clean": "del lib",
+    "prepublishOnly": "pnpm run test && pnpm run build",
+    "test": "node --test ./src/__tests__/*.test.ts"
+  },
+  "devDependencies": {
+    "@tscb/builder-babel": "catalog:",
+    "@tscb/tsconfig": "catalog:",
+    "@types/node": "catalog:",
+    "del-cli": "catalog:",
+    "payload-is": "catalog:",
+    "typescript": "catalog:"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "x-build": {
+    "exports": "src/index.ts",
+    "ignore": [
+      "src/**/*.test.ts"
+    ],
+    "clean": true,
+    "bundled": true
+  }
+}

@@ -1,0 +1,10 @@
+packages:
+  - packages/*
+catalog:
+  "@tscb/builder-babel": ^0.3.2
+  "@tscb/tsconfig": ^0.3.2
+  "@types/node": ^22.13.11
+  del-cli: ^6.0.0
+  lerna: ^8.2.1
+  typescript: ^5.8.3
+  payload-is: ^0.4.0
