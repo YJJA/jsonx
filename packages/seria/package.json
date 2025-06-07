@@ -1,6 +1,6 @@
 {
   "name": "@jsox/seria",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "A powerful library for serializing and deserializing JavaScript data types, including Symbol, Set, Map, Error, and more",
   "author": "Liu Hong <hongdoit@icloud.com> (https://github.com/YJJA)",
   "type": "module",
